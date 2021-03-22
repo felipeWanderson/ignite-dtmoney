@@ -2,7 +2,8 @@ import { FormEvent, useState } from "react";
 import ReactModal from "react-modal";
 import { IncomeImg, OutcomeImg } from "../../assets";
 import closeImg from '../../assets/close.svg';
-import { useTransaction } from "../../TransactionsContext";
+import { useTransaction } from "../../hooks/useTransactions";
+
 import { Container, TransactionTypeContainer, RadioBox } from "./styles";
 
 interface NewTransactionModalProps {
